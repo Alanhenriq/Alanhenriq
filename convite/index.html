@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Convite de Formatura</title>
+  <meta name="description" content="Você é meu convidado de honra — 28 de dezembro de 2026" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="stage">
+    <article class="invite" aria-label="Convite de formatura">
+      <div class="invite__glow" aria-hidden="true"></div>
+
+      <header class="invite__header">
+        <span class="sparkles sparkles--tl" aria-hidden="true">
+          <svg viewBox="0 0 64 40" fill="currentColor">
+            <path d="M10 18 12.2 12.8 17.4 10.6 12.2 8.4 10 3.2 7.8 8.4 2.6 10.6 7.8 12.8Z"/>
+            <path d="M28 22 30.6 15.4 37.2 12.8 30.6 10.2 28 3.6 25.4 10.2 18.8 12.8 25.4 15.4Z"/>
+            <path d="M46 16 47.8 11.6 52.2 9.8 47.8 8 46 3.6 44.2 8 39.8 9.8 44.2 11.6Z"/>
+          </svg>
+        </span>
+
+        <span class="cap" aria-hidden="true">
+          <svg viewBox="0 0 64 48" fill="none">
+            <path d="M32 6 4 18l28 12 28-12L32 6Z" fill="#1a1a1a"/>
+            <path d="M14 22.5v10.2c0 4.6 8.1 8.3 18 8.3s18-3.7 18-8.3V22.5" stroke="#1a1a1a" stroke-width="2.2"/>
+            <path d="M54 20.5v14" stroke="#C9A227" stroke-width="2.2" stroke-linecap="round"/>
+            <circle cx="54" cy="36.5" r="3.2" fill="#C9A227"/>
+          </svg>
+        </span>
+
+        <p class="eyebrow">formatura</p>
+        <h1>você é meu<br />convidado de honra</h1>
+        <p class="lead">
+          Sua presença significa muito para mim e tornará esse momento ainda mais especial!
+        </p>
+      </header>
+
+      <section class="details" aria-label="Data e local">
+        <p class="details__label">DATA &amp; LOCAL</p>
+        <div class="details__row">
+          <p class="details__meta details__meta--left">às 19h</p>
+          <p class="details__date">
+            <span class="month">DEZEMBRO</span>
+            <span class="day">28</span>
+            <span class="year">2026</span>
+          </p>
+          <p class="details__meta details__meta--right">quadra do colégio</p>
+        </div>
+        <span class="sparkles sparkles--mid" aria-hidden="true">
+          <svg viewBox="0 0 48 36" fill="currentColor">
+            <path d="M12 16 13.8 11.6 18.2 9.8 13.8 8 12 3.6 10.2 8 5.8 9.8 10.2 11.6Z"/>
+            <path d="M30 24 32.2 18.6 37.6 16.4 32.2 14.2 30 8.8 27.8 14.2 22.4 16.4 27.8 18.6Z"/>
+            <path d="M40 12 41.4 8.6 44.8 7.2 41.4 5.8 40 2.4 38.6 5.8 35.2 7.2 38.6 8.6Z"/>
+          </svg>
+        </span>
+      </section>
+
+      <footer class="invite__footer">
+        <figure class="portrait">
+          <img src="assets/formanda.jpg" alt="Formanda sorrindo com beca e canudo" width="842" height="1406" />
+        </figure>
+
+        <div class="rsvp">
+          <p>Para confirmar sua presença,<br />mire o celular no QR Code</p>
+          <img class="qr" src="assets/qr.png" alt="QR Code para confirmar presença" width="684" height="684" />
+        </div>
+      </footer>
+    </article>
+  </div>
+</body>
+</html>
